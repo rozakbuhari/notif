@@ -1,0 +1,38 @@
+{
+  "name": "notif",
+  "version": "0.1.0",
+  "description": "A notification engine",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozakbuhari/notif.git"
+  },
+  "keywords": [
+    "notification",
+    "push-notif",
+    "web-socket"
+  ],
+  "author": "Fathurozak Buhari <rozakbuhari@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rozakbuhari/notif/issues"
+  },
+  "homepage": "https://github.com/rozakbuhari/notif#readme",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-redis": "^4.3.3",
+    "redis": "^4.0.6",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "nodemon": "^2.0.15",
+    "prettier": "2.6.2",
+    "typescript": "^4.6.3"
+  }
+}

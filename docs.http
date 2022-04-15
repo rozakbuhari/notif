@@ -1,0 +1,11 @@
+@HOST = http://127.0.0.1:3000
+GET {{HOST}}/notifications
+Content-Type: application/json
+
+### Post notification
+POST {{HOST}}/notifications
+Content-Type: application/json
+
+{
+    "foo": "baz"
+}
